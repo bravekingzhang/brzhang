@@ -8,7 +8,7 @@ app.use(express.static(path.resolve(__dirname, './dist')))
 app.get('*', function (req, res) {
     const html = fs.readFileSync(path.resolve(__dirname, './dist/index.html'), 'utf-8')
     res.send(html)
-})
+});
 app.listen(3002, res => {
     console.log(chalk.yellow('Start Service On 3002'));
 });
