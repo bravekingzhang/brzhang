@@ -31,6 +31,11 @@
             <li><a href="http://tools.jb51.net/games/gangqin" target="_blank" rel="noopener">在线钢琴</a>
             </li>
         </ul>
+        <h3>知名博主</h3>
+        <ul>
+            <li><a href="http://www.ruanyifeng.com/home.html" target="_blank" rel="noopener">ruanyifeng</a>
+            </li>
+        </ul>
     </div>
 </template>
 
