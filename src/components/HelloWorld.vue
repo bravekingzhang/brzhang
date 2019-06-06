@@ -11,36 +11,24 @@
         </ul>
         <h3>Android相关</h3>
         <ul>
-            <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-            <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-            <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a>
-            </li>
-            <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-            <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-        </ul>
-        <h3>iOS相关</h3>
-        <ul>
-            <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a>
-            </li>
-            <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-            <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank"
-                   rel="noopener">vue-devtools</a></li>
-            <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a>
-            </li>
-            <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a>
-            </li>
+            <li><a href="https://androidweekly.io/" target="_blank" rel="noopener">Android 开发技术周报</a></li>
+            <li><a href="https://android-developers.googleblog.com/" target="_blank" rel="noopener">Android官方技术博客</a></li>
+            <li><a href="https://zhuanlan.zhihu.com/weishu" target="_blank" rel="noopener">维术不多的Android技巧</a></li>
         </ul>
 
         <h3>小程序相关</h3>
         <ul>
-            <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a>
+            <li><a href="https://mp.weixin.qq.com/cgi-bin/wx" target="_blank" rel="noopener">官网</a>
             </li>
             <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-            <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank"
-                   rel="noopener">vue-devtools</a></li>
-            <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a>
+            <li><a href="https://uniapp.dcloud.io/" target="_blank"
+                   rel="noopener">uniapp</a></li>
+            <li><a href="http://mpvue.com/" target="_blank" rel="noopener">mpvue</a>
             </li>
-            <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a>
+        </ul>
+        <h3>娱乐工具</h3>
+        <ul>
+            <li><a href="http://tools.jb51.net/games/gangqin" target="_blank" rel="noopener">在线钢琴</a>
             </li>
         </ul>
     </div>
