@@ -6,6 +6,12 @@
             <li><a href="https://www.yuque.com/ruanyf/share/free-diagram"
                    target="_blank" rel="noopener">免费作图工具
             </a></li>
+            <li><a href="https://www.explainshell.com/"
+                   target="_blank" rel="noopener">shell命令解释器，碉堡
+            </a></li>
+            <li><a href="http://frontendtools.com/"
+                   target="_blank" rel="noopener">前端开发工具精选
+            </a></li>
             <li><a href="https://miku.tools/"
                    target="_blank" rel="noopener">MikuTools - 工具集合
             </a></li>
@@ -20,6 +26,9 @@
             </a></li>
             <li><a href="https://chanind.github.io/hanzi-writer/"
                    target="_blank" rel="noopener">手写汉字js库
+            </a></li>
+            <li><a href="https://github.com/GitHubDaily/GitHubDaily"
+                   target="_blank" rel="noopener">GitHubDaily
             </a></li>
         </ul>
         <h3>书籍下载</h3>
@@ -47,6 +56,8 @@
         </ul>
         <h3>娱乐&游戏</h3>
         <ul>
+            <li><a href="https://arcade.makecode.com/#" target="_blank" rel="noopener">来把，做一个游戏</a>
+            </li>
             <li><a href="http://tools.jb51.net/games/gangqin" target="_blank" rel="noopener">在线钢琴flash</a>
             </li>
             <li><a href="https://github.com/WarpPrism/AutoPiano" target="_blank" rel="noopener">在线钢琴h5</a>
@@ -68,6 +79,8 @@
             <li><a href="http://blog.coderhuo.tech/2017/10/12/Virtual_Memory_C_strings_proc/" target="_blank" rel="noopener">虚拟内存最佳讲解</a>
             </li>
             <li><a href="https://www.forbes.com/sites/maddieberg/2019/02/19/the-greatest-investor-youve-never-heard-of-an-optometrist-who-beat-the-odds-to-become-a-billionaire/#753dab3a22e8" target="_blank" rel="noopener">阅读专利投资得21亿</a>
+            </li>
+            <li><a href="https://github.com/MRNIU/SimpleKernel" target="_blank" rel="noopener">可以玩意玩操作系统</a>
             </li>
         </ul>
         <h3>烧脑</h3>
