@@ -1,13 +1,14 @@
 <template>
     <div class="hello">
         <h1>{{ msg }}</h1>
-        <h3>json相关</h3>
+        <h3>工具集</h3>
         <ul>
-            <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-                   target="_blank" rel="noopener">babel</a></li>
-            <li>
-                <a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
-                   target="_blank" rel="noopener">eslint</a></li>
+            <li><a href="https://miku.tools/"
+                   target="_blank" rel="noopener">MikuTools - 工具集合
+            </a></li>
+            <li><a href="https://chanind.github.io/hanzi-writer/"
+                   target="_blank" rel="noopener">手写汉字js库
+            </a></li>
         </ul>
         <h3>Android相关</h3>
         <ul>
@@ -26,14 +27,23 @@
             <li><a href="http://mpvue.com/" target="_blank" rel="noopener">mpvue</a>
             </li>
         </ul>
-        <h3>娱乐工具</h3>
+        <h3>娱乐&游戏</h3>
         <ul>
             <li><a href="http://tools.jb51.net/games/gangqin" target="_blank" rel="noopener">在线钢琴</a>
+            </li>
+            <li><a href="http://loderunnerwebgame.com/game/" target="_blank" rel="noopener">挖金子</a>
             </li>
         </ul>
         <h3>知名博主</h3>
         <ul>
             <li><a href="http://www.ruanyifeng.com/home.html" target="_blank" rel="noopener">ruanyifeng</a>
+            </li>
+        </ul>
+        <h3>比较有意思的一些文章</h3>
+        <ul>
+            <li><a href="https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all" target="_blank" rel="noopener">电路图符号解释</a>
+            </li>
+            <li><a href="http://blog.coderhuo.tech/2017/10/12/Virtual_Memory_C_strings_proc/" target="_blank" rel="noopener">虚拟内存最佳讲解</a>
             </li>
         </ul>
     </div>
