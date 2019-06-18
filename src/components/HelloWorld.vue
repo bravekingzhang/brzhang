@@ -39,6 +39,9 @@
             <li><a href="https://anvaka.github.io/vs/?query=%E5%9C%B0%E7%90%83"
                    target="_blank" rel="noopener">元搜索
             </a></li>
+            <li><a href="http://webassembly.org.cn/"
+                   target="_blank" rel="noopener">webassembly
+            </a></li>
         </ul>
         <h3>学海无涯苦做舟</h3>
         <ul>
