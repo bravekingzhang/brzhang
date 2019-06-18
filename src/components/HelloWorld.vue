@@ -30,11 +30,29 @@
             <li><a href="https://github.com/GitHubDaily/GitHubDaily"
                    target="_blank" rel="noopener">GitHubDaily
             </a></li>
+            <li><a href="https://asciinema.org/"
+                   target="_blank" rel="noopener">录制命名行敲下的代码
+            </a></li>
+            <li><a href="https://wangchujiang.com/linux-command/"
+                   target="_blank" rel="noopener">linux命名搜索引擎-带用法
+            </a></li>
+            <li><a href="https://anvaka.github.io/vs/?query=%E5%9C%B0%E7%90%83"
+                   target="_blank" rel="noopener">元搜索
+            </a></li>
         </ul>
-        <h3>书籍下载</h3>
+        <h3>学海无涯苦做舟</h3>
         <ul>
             <li><a href="https://kindle.51nazhun.pub/"
                    target="_blank" rel="noopener">Kindle电子书分享网
+            </a></li>
+            <li><a href="https://github.com/alaskasquirrel/Chinese-Podcasts"
+                   target="_blank" rel="noopener">中文播客
+            </a></li>
+            <li><a href="https://benlauwens.github.io/ThinkJulia.jl/latest/book.html"
+                   target="_blank" rel="noopener">Julia
+            </a></li>
+            <li><a href="http://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html"
+                   target="_blank" rel="noopener">计算机系统导论
             </a></li>
         </ul>
         <h3>Android相关</h3>
@@ -54,6 +72,11 @@
             <li><a href="http://mpvue.com/" target="_blank" rel="noopener">mpvue</a>
             </li>
         </ul>
+        <h3>人工智能</h3>
+        <ul>
+            <li><a href="https://github.com/machinelearningmindset/TensorFlow-Course" target="_blank" rel="noopener">TensorFlow新手教程</a>
+            </li>
+        </ul>
         <h3>娱乐&游戏</h3>
         <ul>
             <li><a href="https://arcade.makecode.com/#" target="_blank" rel="noopener">来把，做一个游戏</a>
@@ -64,10 +87,18 @@
             </li>
             <li><a href="http://loderunnerwebgame.com/game/" target="_blank" rel="noopener">挖金子</a>
             </li>
+            <li><a href="https://zhuanlan.zhihu.com/p/23936161" target="_blank" rel="noopener">非一般的游戏</a>
+            </li>
+            <li><a href="https://dos.zczc.cz/" target="_blank" rel="noopener">DOS游戏-非常经典</a>
+            </li>
+            <li><a href="https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2" target="_blank" rel="noopener">来教你折纸飞机</a>
+            </li>
         </ul>
         <h3>知名博主</h3>
         <ul>
             <li><a href="http://www.ruanyifeng.com/home.html" target="_blank" rel="noopener">ruanyifeng</a>
+            </li>
+            <li><a href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit" target="_blank" rel="noopener">programer</a>
             </li>
         </ul>
         <h3>比较有意思的一些文章</h3>
@@ -80,7 +111,13 @@
             </li>
             <li><a href="https://www.forbes.com/sites/maddieberg/2019/02/19/the-greatest-investor-youve-never-heard-of-an-optometrist-who-beat-the-odds-to-become-a-billionaire/#753dab3a22e8" target="_blank" rel="noopener">阅读专利投资得21亿</a>
             </li>
-            <li><a href="https://github.com/MRNIU/SimpleKernel" target="_blank" rel="noopener">可以玩意玩操作系统</a>
+            <li><a href="https://github.com/MRNIU/SimpleKernel" target="_blank" rel="noopener">可以玩玩操作系统</a>
+            </li>
+            <li><a href="https://github.com/cfenollosa/os-tutorial" target="_blank" rel="noopener">从零玩操作系统</a>
+            </li>
+            <li><a href="https://hadrienj.github.io/posts/Deep-Learning-Book-Series-Introduction/" target="_blank" rel="noopener">线性代数入门</a>
+            </li>
+            <li><a href="https://hackernoon.com/writing-a-reverse-proxy-in-just-one-line-with-go-c1edfa78c84b" target="_blank" rel="noopener">用go手撸一个反向代理服务器</a>
             </li>
         </ul>
         <h3>烧脑</h3>
