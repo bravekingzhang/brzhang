@@ -9,6 +9,9 @@
             <li><a href="https://www.explainshell.com/"
                    target="_blank" rel="noopener">shell命令解释器，碉堡
             </a></li>
+            <li><a href="https://devhints.io/"
+                   target="_blank" rel="noopener">cheatSheet汇总
+            </a></li>
             <li><a href="http://frontendtools.com/"
                    target="_blank" rel="noopener">前端开发工具精选
             </a></li>
@@ -32,6 +35,9 @@
             </a></li>
             <li><a href="https://asciinema.org/"
                    target="_blank" rel="noopener">录制命名行敲下的代码
+            </a></li>
+            <li><a href="https://github.com/nbedos/termtosvg"
+                   target="_blank" rel="noopener">把你敲的命令录制成svg
             </a></li>
             <li><a href="https://wangchujiang.com/linux-command/"
                    target="_blank" rel="noopener">linux命名搜索引擎-带用法
@@ -57,6 +63,21 @@
             <li><a href="http://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html"
                    target="_blank" rel="noopener">计算机系统导论
             </a></li>
+            <li><a href="http://craftinginterpreters.com/"
+                   target="_blank" rel="noopener">如何写一个编译器
+            </a></li>
+            <li><a href="https://ksco.gitbooks.io/build-your-own-lisp/"
+                   target="_blank" rel="noopener">用c写一个你自己的lisp
+            </a></li>
+            <li><a href="https://landgreen.github.io/physics/index.html"
+                   target="_blank" rel="noopener">高中物理笔记
+            </a></li>
+            <li><a href="https://love2.io/"
+                   target="_blank" rel="noopener">开源书籍
+            </a></li>
+            <li><a href="https://www.yuque.com/airing/canvas/01"
+                   target="_blank" rel="noopener">html5-canvas教程
+            </a></li>
         </ul>
         <h3>Android相关</h3>
         <ul>
@@ -79,6 +100,8 @@
         <ul>
             <li><a href="https://github.com/machinelearningmindset/TensorFlow-Course" target="_blank" rel="noopener">TensorFlow新手教程</a>
             </li>
+            <li><a href="https://developers.google.com/machine-learning/crash-course/" target="_blank" rel="noopener">Google机器学习课程</a>
+            </li>
         </ul>
         <h3>娱乐&游戏</h3>
         <ul>
@@ -95,6 +118,8 @@
             <li><a href="https://dos.zczc.cz/" target="_blank" rel="noopener">DOS游戏-非常经典</a>
             </li>
             <li><a href="https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2" target="_blank" rel="noopener">来教你折纸飞机</a>
+            </li>
+            <li><a href="https://luden.io/wtl/" target="_blank" rel="noopener">人工智能游戏</a>
             </li>
         </ul>
         <h3>知名博主</h3>
@@ -121,6 +146,8 @@
             <li><a href="https://hadrienj.github.io/posts/Deep-Learning-Book-Series-Introduction/" target="_blank" rel="noopener">线性代数入门</a>
             </li>
             <li><a href="https://hackernoon.com/writing-a-reverse-proxy-in-just-one-line-with-go-c1edfa78c84b" target="_blank" rel="noopener">用go手撸一个反向代理服务器</a>
+            </li>
+            <li><a href="https://www.interviewcake.com/data-structures-reference" target="_blank" rel="noopener">常见数据结构简介</a>
             </li>
         </ul>
         <h3>烧脑</h3>
