@@ -234,6 +234,13 @@
       </li>
       <li>
         <a
+          href="http://blog.hubwiz.com/2018/12/27/coding-for-kids-20-sites/"
+          target="_blank"
+          rel="noopener"
+        >20个适合儿童学习编程的工具</a>
+      </li>
+      <li>
+        <a
           href="https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all"
           target="_blank"
           rel="noopener"
