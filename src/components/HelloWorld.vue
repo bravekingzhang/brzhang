@@ -307,6 +307,12 @@
       <li>
         <a href="https://algorithm-visualizer.org" target="_blank" rel="noopener">算法在线演示</a>
       </li>
+      <li>
+        <a href="https://belly.io/programming" target="_blank" rel="noopener">国外码农在线直播</a>
+      </li>
+      <li>
+        <a href="https://www.animatedknots.com/complete-knot-list" target="_blank" rel="noopener">红绳接扣</a>
+      </li>
     </ul>
   </div>
 </template>
