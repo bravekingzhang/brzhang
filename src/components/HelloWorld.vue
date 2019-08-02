@@ -11,6 +11,13 @@
         >免费作图工具</a>
       </li>
       <li>
+        <a
+                href="http://paperjs.org/examples/voronoi/"
+                target="_blank"
+                rel="noopener"
+        >一个js绘图库</a>
+      </li>
+      <li>
         <a href="https://www.explainshell.com/" target="_blank" rel="noopener">shell命令解释器，碉堡</a>
       </li>
       <li>
@@ -125,6 +132,13 @@
           target="_blank"
           rel="noopener"
         >html5-canvas教程</a>
+      </li>
+      <li>
+        <a
+          href="https://www.wikihow.com/Main-Page"
+          target="_blank"
+          rel="noopener"
+        >HowTo-一个神奇的网站</a>
       </li>
     </ul>
     <h3>Android相关</h3>
