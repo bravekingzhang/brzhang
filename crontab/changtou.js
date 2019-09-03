@@ -12,10 +12,11 @@ let percentrank = function (x, vec) {
         }
     }
     return s / (s + b - 1);
-}   
+}
 let changtou = function (stockCode) {
     let startTime = new Date(new Date().getTime() - 10 * 360 * 24 * 60 * 60 * 1000).toISOString().substr(0, 10);
-    let endTime = new Date().toISOString().substr(0, 10)
+    let endTime = new Date().toISOString().substr(0, 10);
+    console.log('endTime',endTime);
     axios.post('https://open.lixinger.com/api/a/indice/fundamental', {
         "token": "f9371285-245a-4c5c-9328-5b7680c9e39c",
         "startDate": startTime,
