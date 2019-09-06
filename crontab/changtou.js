@@ -56,7 +56,7 @@ let changtou = function (stockCode) {
             } catch (err) {
                 console.log(err)
             }
-            fs.writeFile("../public/changtou.json", JSON.stringify(changtouArr), function (err) {
+            fs.writeFile("../dist/changtou.json", JSON.stringify(changtouArr), function (err) {
                     if (err) throw err;
                     console.log('complete');
                 }
