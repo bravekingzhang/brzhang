@@ -52,7 +52,7 @@ let changtou = function (stockCode) {
                 return item
             });
             try {
-                fs.unlinkSync("../public/changtou.json")
+                fs.unlinkSync("../dist/changtou.json")
             } catch (err) {
                 console.log(err)
             }
