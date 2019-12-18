@@ -1,24 +1,23 @@
 <template>
-    <i-circle
-            :size="240"
-            :trail-width="4"
-            :stroke-width="5"
-            :percent="temperature"
-            stroke-linecap="round"
-            :stroke-color="color"
-            :dashboard="dashboard">
-        <div class="demo-Circle-custom">
-            <p>{{date}}</p>
-            <h1>长投温度{{temperature}}</h1>
-            <p>{{msg}}</p>
-        </div>
-    </i-circle>
+
+    <el-card class="chang-tou-card">
+        <el-progress class="image" type="dashboard" :percentage="temperature"
+                     :color="colors" style="margin: auto"></el-progress>
+        <div class="span">长投温度是{{temperature}},{{msg}}</div>
+    </el-card>
 </template>
 <script>
     export default {
         data() {
             return {
-                dashboard:true
+                percentage: 10,
+                colors: [
+                    {color: '#5cb87a', percentage: 15},
+                    {color: '#1989fa', percentage: 25},
+                    {color: '#6f7ad3', percentage: 35},
+                    {color: '#e6a23c', percentage: 40},
+                    {color: '#f56c6c', percentage: 60},
+                ]
             }
         },
         methods: {
@@ -38,65 +37,35 @@
                     return `建议适量卖出`
                 }
             },
-            color() {
-                if (this.temperature < 20) {
-                    return "#5cb85c"
-                } else if (this.temperature >= 20 && this.temperature < 40) {
-                    return "#ff9900"
-                } else {
-                    return "#ed4014"
-                }
-
-            },
         },
         props: {
             temperature: {
                 type: Number,
                 default: 20.0
             },
-            date:{
-                type:String,
-                default: new Date().toISOString().substr(0,10)
+            date: {
+                type: String,
+                default: new Date().toISOString().substr(0, 10)
             }
         },
     }
 </script>
 <style lang="less">
-    .demo-Circle-custom {
-        & h1 {
-            color: #3f414d;
-            font-size: 28px;
-            font-weight: normal;
-        }
-
-        & p {
-            color: #657180;
-            font-size: 14px;
-            margin: 10px 0 15px;
-        }
-
-        & span {
-            display: block;
-            padding-top: 15px;
-            color: #657180;
-            font-size: 14px;
-
-            &:before {
-                content: '';
-                display: block;
-                width: 50px;
-                height: 1px;
-                margin: 0 auto;
-                background: #e0e3e6;
-                position: relative;
-                top: -15px;
-            }
-        ;
-        }
-
-        & span i {
-            font-style: normal;
-            color: #3f414d;
-        }
+    .image {
+        align-self: center;
+        align-items: center;
     }
+
+    .span {
+        align-self: center;
+        align-items: center;
+    }
+
+    .chang-tou-card {
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        align-self: center;
+    }
+
 </style>
