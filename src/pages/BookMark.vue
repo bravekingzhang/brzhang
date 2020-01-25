@@ -82,6 +82,10 @@
                     <a href="http://webassembly.org.cn/" target="_blank"
                        rel="noopener">webassembly</a>
                 </li>
+                <li>
+                    <a href="https://www.happyhues.co/palettes/17" target="_blank"
+                       rel="noopener">网站着色方案</a>
+                </li>
             </ul>
             <h3>学海无涯苦做舟</h3>
             <ul>
@@ -193,6 +197,13 @@
                             target="_blank"
                             rel="noopener"
                     >Google机器学习课程</a>
+                </li>
+                <li>
+                    <a
+                            href="https://course.elementsofai.com/"
+                            target="_blank"
+                            rel="noopener"
+                    >芬兰全民机器学习教程</a>
                 </li>
             </ul>
             <h3>娱乐&游戏</h3>
