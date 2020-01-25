@@ -1,7 +1,6 @@
 <template>
     <div class="bookmark">
         <div class="hello">
-            <h1>{{ msg }}</h1>
             <h3>工具集</h3>
             <ul>
                 <li>

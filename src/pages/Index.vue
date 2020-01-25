@@ -25,6 +25,7 @@
             </header>
         </div>
         <div class="main-cnt">
+            <el-footer></el-footer>
             <div class="page-container page-guide">
                 <div class="el-row">
                     <div class="el-col el-col-24 el-col-xs-24 el-col-sm-5">
@@ -64,15 +65,18 @@
                             </div>
                             <!--<h3 data-v-7aed89bc="">一致性 Consistency</h3>-->
                             <!--<ul data-v-7aed89bc="">-->
-                                <!--<li data-v-7aed89bc=""><strong data-v-7aed89bc="">与现实生活一致：</strong>与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；-->
-                                <!--</li>-->
-                                <!--<li data-v-7aed89bc=""><strong data-v-7aed89bc="">在界面中一致：</strong>所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。-->
-                                <!--</li>-->
+                            <!--<li data-v-7aed89bc=""><strong data-v-7aed89bc="">与现实生活一致：</strong>与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；-->
+                            <!--</li>-->
+                            <!--<li data-v-7aed89bc=""><strong data-v-7aed89bc="">在界面中一致：</strong>所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。-->
+                            <!--</li>-->
                             <!--</ul>-->
                         </div>
                     </div>
                 </div>
             </div>
+            <el-footer></el-footer>
+            <BookMark></BookMark>
+            <el-footer></el-footer>
         </div>
         <footer class="footer">
             <div class="container">
@@ -99,6 +103,7 @@
 <script>
 
     import ChangTouChat from '../components/ChangTouChart'
+    import BookMark from '../pages/BookMark'
 
     export default {
         name: 'index',
@@ -109,7 +114,7 @@
             }
         },
         components: {
-            ChangTouChat
+            ChangTouChat,BookMark
         },
         computed: {
             temperature() {
@@ -517,7 +522,6 @@
     .header .container[data-v-ad5d153c] {
         height: 100%;
         box-sizing: border-box;
-        border-bottom: 1px solid #dcdfe6
     }
 
     .header .nav-lang-spe[data-v-ad5d153c] {
