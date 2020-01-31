@@ -12,6 +12,20 @@
                 </li>
                 <li>
                     <a
+                            href="https://github.com/doocs/md"
+                            target="_blank"
+                            rel="noopener"
+                    >微信文章编辑器</a>
+                </li>
+                <li>
+                    <a
+                            href="https://www.hammerspoon.org/go/"
+                            target="_blank"
+                            rel="noopener"
+                    >mac上的自动化脚本</a>
+                </li>
+                <li>
+                    <a
                             href="http://paperjs.org/examples/voronoi/"
                             target="_blank"
                             rel="noopener"
@@ -270,6 +284,13 @@
                             target="_blank"
                             rel="noopener"
                     >20个适合儿童学习编程的工具</a>
+                </li>
+                <li>
+                    <a
+                            href="https://blockly.games/?lang=zh-hans"
+                            target="_blank"
+                            rel="noopener"
+                    >儿童编程游戏</a>
                 </li>
                 <li>
                     <a
