@@ -100,6 +100,14 @@
                     <a href="https://www.happyhues.co/palettes/17" target="_blank"
                        rel="noopener">网站着色方案</a>
                 </li>
+                <li>
+                    <a href="https://regex101.com/r/jB9jB7/1" target="_blank"
+                       rel="noopener">正则表达式解释</a>
+                </li>
+                <li>
+                    <a href="https://post.jsonin.com/" target="_blank"
+                       rel="noopener">在线post工具</a>
+                </li>
             </ul>
             <h3>学海无涯苦做舟</h3>
             <ul>
