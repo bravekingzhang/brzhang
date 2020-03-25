@@ -108,6 +108,10 @@
                     <a href="https://post.jsonin.com/" rel="noopener"
                        target="_blank">在线post工具</a>
                 </li>
+                <li>
+                    <a href="http://guozhivip.com/lab/" rel="noopener"
+                       target="_blank">划水专用</a>
+                </li>
             </ul>
             <h3>学海无涯苦做舟</h3>
             <ul>
@@ -168,6 +172,13 @@
                             rel="noopener"
                             target="_blank"
                     >HowTo-一个神奇的网站</a>
+                </li>
+                <li>
+                    <a
+                            href="https://www.v2ex.com/"
+                            rel="noopener"
+                            target="_blank"
+                    >V2EX</a>
                 </li>
             </ul>
             <h3>Android相关</h3>
