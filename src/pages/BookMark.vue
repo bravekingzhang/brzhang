@@ -12,6 +12,13 @@
                 </li>
                 <li>
                     <a
+                            href="https://www.digitalocean.com/community/tools/nginx"
+                            rel="noopener"
+                            target="_blank"
+                    >Nginx配置文件</a>
+                </li>
+                <li>
+                    <a
                             href="https://github.com/doocs/md"
                             rel="noopener"
                             target="_blank"
@@ -369,6 +376,13 @@
                             rel="noopener"
                             target="_blank"
                     >leetcode解题思路</a>
+                </li>
+                <li>
+                    <a
+                            href="https://leetcode.wang/leetcode-301-Remove-Invalid-Parentheses.html"
+                            rel="noopener"
+                            target="_blank"
+                    >leetcode解题思路2</a>
                 </li>
                 <li>
                     <a
