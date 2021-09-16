@@ -1,0 +1,16 @@
+{
+  "name": "brzhang",
+  "version": "1.0.0",
+  "description": "brzhang的主页",
+  "main": "index.js",
+  "author": "brzhang",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^0.18.1"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
