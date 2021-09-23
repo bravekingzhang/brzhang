@@ -6,6 +6,10 @@
   "author": "brzhang",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.15.4",
+    "@tencent/eslint-config-tencent": "^0.12.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.9.0",
     "vitepress": "^0.18.1"
   },
   "scripts": {
