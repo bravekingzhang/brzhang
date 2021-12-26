@@ -1,0 +1,200 @@
+<html>
+  <head>
+    <style type="text/css">
+      .app {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .music-result-panel {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        flex-wrap: wrap;
+      }
+      .music-track-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .music-track-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        height: 300px;
+        width: 80px;
+      }
+      .music-answer-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 14px;
+        margin-top: 12px;
+        border-radius: 3px;
+        height: 200px;
+        width: 80px;
+        border: 1px solid;
+      }
+      .music-start-button-div {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+      }
+      .music-next-button {
+        justify-content: center;
+        font-size: 3em;
+        width: 45%;
+        border: 1px solid;
+        border-radius: 8px;
+        padding: 22px;
+      }
+      .music-start-button {
+        justify-content: center;
+        font-size: 3em;
+        width: 45%;
+        border: 1px solid;
+        border-radius: 8px;
+        padding: 22px;
+      }
+      .music-restart-button {
+        justify-content: center;
+        font-size: 3em;
+        width: 45%;
+        border: 1px solid;
+        border-radius: 8px;
+        padding: 22px;
+      }
+
+      .current {
+        border: 1px dashed #ccc;
+      }
+      .success {
+        border: 1px solid rgb(11, 233, 41);
+      }
+      .error {
+        border: 1px solid rgb(236, 72, 72);
+      }
+    </style>
+  </head>
+  <script src="https://unpkg.com/tone"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <body>
+    <div id="app" class="app">
+      <div class="music-result-panel">
+        <div
+          v-for="(puzzle,index) in puzzles"
+          class="music-answer-item"
+          v-bind:class="currentStatusCss(index)"
+        >
+          <div>{{index}}</div>
+        </div>
+      </div>
+      <div class="music-track-div">
+        <div v-for="(track,index) in TRACK_ARRAY_DO">
+          <button @click.stop="answer(index)" class="music-track-button">
+            {{track}}
+          </button>
+        </div>
+      </div>
+      <div class="music-start-button-div">
+        <button @click.stop="startGame" class="music-start-button">
+          {{!gameIsStarted?'开始游戏':'下一关'}}
+        </button>
+        <button @click.stop="initGame" class="music-restart-button">
+          重新游戏
+        </button>
+      </div>
+    </div>
+  </body>
+  <script>
+    const TRACK_ARRAY = ["C4", "D4", "E4", "F4", "G4", "A4", "B4", "C5"];
+    //create a synth and connect it to the main output (your speakers)
+    const TRACK_ARRAY_DO = ["do", "re", "mi", "fa", "sol", "la", "si", "do+1"];
+    const SYNTH = new Tone.Synth().toDestination();
+    function playTrack(track) {
+      SYNTH.triggerAttackRelease(track, "8n");
+    }
+    const KEY_TRACK_MAP = {
+      z: "C4",
+      x: "D4",
+      c: "E4",
+      v: "F4",
+      b: "G4",
+      n: "A4",
+      m: "B4",
+      ",": "C5",
+    };
+
+    const PUZZLE_STATUS = Object.freeze({
+      NOT_BEING: Symbol("NOT_BEING"),
+      SUCCESS: Symbol("SUCCESS"),
+      FAILED: Symbol("FAILED"),
+    });
+    let app = new Vue({
+      el: "#app",
+      data: {
+        gameTimes: 20,
+        puzzles: [],
+        gameIsStarted: false,
+        currentPuzzle: -1,
+      },
+      methods: {
+        initGame() {
+          this.gameIsStarted = false;
+          this.currentPuzzle = -1;
+          let puzzles = [];
+          for (let i = 0; i < this.gameTimes; i++) {
+            puzzles.push({
+              track: TRACK_ARRAY[Math.floor(Math.random() * 8)],
+              status: PUZZLE_STATUS.NOT_BEING,
+            });
+          }
+          this.puzzles = Array.from(puzzles);
+        },
+        startGame() {
+          this.gameIsStarted = true;
+          this.currentPuzzle = this.currentPuzzle + 1;
+          playTrack(this.puzzles[this.currentPuzzle].track);
+        },
+        currentStatusCss(index = 0) {
+          return {
+            current: index === this.activePuzzle,
+            success:
+              this.gameIsStarted &&
+              this.puzzles[index].status === PUZZLE_STATUS.SUCCESS,
+            error:
+              this.gameIsStarted &&
+              this.puzzles[index].status === PUZZLE_STATUS.FAILED,
+          };
+        },
+        answer(index) {
+          let answerTrack = TRACK_ARRAY[index];
+          playTrack(answerTrack);
+          if (!this.gameIsStarted) {
+            return;
+          }
+          if (answerTrack === this.puzzles[this.currentPuzzle].track) {
+            this.puzzles[this.currentPuzzle].status = PUZZLE_STATUS.SUCCESS;
+          } else {
+            this.puzzles[this.currentPuzzle].status = PUZZLE_STATUS.FAILED;
+          }
+        },
+      },
+      computed: {
+        activePuzzle() {
+          if (this.gameIsStarted) {
+            return this.currentPuzzle;
+          } else {
+            return -1;
+          }
+        },
+      },
+      created: function () {
+        this.initGame();
+      },
+    });
+  </script>
+</html>
